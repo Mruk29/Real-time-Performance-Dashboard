@@ -1,0 +1,36 @@
+/* General Page Styling */
+body {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Dashboard Container */
+.graph-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+/* Graphs */
+.graph-container .dash-graph {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Dropdown */
+.Select-control {
+    background-color: white !important;
+    color: black !important;
+    border-radius: 8px;
+}
